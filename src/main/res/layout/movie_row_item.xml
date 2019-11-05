@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_alignBottom="@+id/toolbar"
+    android:layout_marginTop="6dp"
+    android:id="@+id/linearitem"
+    android:padding="10dp"
+    android:background="#fff">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/loading_shape"
+        android:id="@+id/thumbnail"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:id="@+id/movie_name"
+            android:text="Movie Title"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_margin="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="6dp"
+            android:text="Release_date:"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Release_Date"
+            android:id="@+id/releasedate"
+            android:textSize="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:layout_marginTop="4dp"
+            android:layout_margin="4dp"
+            android:text="0.0"
+            android:background="@drawable/rating_background"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_star_black_24dp"
+            android:paddingRight="6dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
