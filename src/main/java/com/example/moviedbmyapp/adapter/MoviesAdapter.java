@@ -31,8 +31,6 @@ import static android.content.Context.LAYOUT_INFLATER_SERVICE;
 
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHolder> {
 
-
-
     private Context mContext;
     private List<Movie> movieList;
     private PopupWindow mPopupWindow;
